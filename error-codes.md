@@ -330,6 +330,10 @@ In addition, TiDB has the following unique error codes:
     An SQL query with aggregate functions returns non-aggregated columns, which violates the `only_full_group_by` mode. 
     
     Modify the SQL statement or disable the `only_full_group_by` mode.
+    
+* Error Number: 8129
+
+    TiDB doesn't yet support JSON objects with key length >= 65536.
 
 * Error Number: 8200
 
